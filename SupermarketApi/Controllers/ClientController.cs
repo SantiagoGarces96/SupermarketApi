@@ -59,7 +59,7 @@ namespace SupermarketApi.Controllers
             {
                Name=clientef.Name,  
                Address=clientef.Address,        
-               CellPhoneNumber=clientef.CellPhoneNumber,    
+               CellPhoneNumber=clientef.CellPhoneNumber,  
 
 
 
