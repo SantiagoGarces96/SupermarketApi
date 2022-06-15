@@ -1,10 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 #nullable disable
 
 namespace SupermarketApi.Models
 {
+    [Table("Product")]
     public partial class Product
     {
         public Product()
@@ -12,6 +15,7 @@ namespace SupermarketApi.Models
             TypeProducts = new HashSet<TypeProduct>();
         }
 
+        [Key]
         public int Id { get; set; }
         public string Name { get; set; }
         public DateTime ProductElaborationDate { get; set; }

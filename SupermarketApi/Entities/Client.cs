@@ -1,4 +1,6 @@
-﻿namespace SupermarketApi.Entities
+﻿using System;
+
+namespace SupermarketApi.Entities
 {
     public class Client
     {
